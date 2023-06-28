@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-fundo: #00030c;
+    --fonte-principal: 'Inter';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container-botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao-secundario{
+    background-color: transparent;
+    border: 2px solid  var(--branco-principal);
+}
+
+.container-aviso{
+    font-size: 0.75rem;
+    color: var(--cinza-secundario);
+}
+
+.container-titulo{
+    font-size: 1,75rem;
+    font-weight: 700;
+}
+
+.container-imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container-caixa{
+   margin: 0 6em;
+}
+
+.secundario-imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao-titulo{
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao-texto{
+    color: var(--cinza-secundario);
+}
+
+.secundario-botao{
+   display: inline-block;
+   margin-top: 1em;
+}
+
+.container-descricao{
+    padding: 2em;
+}
+
+.dispositivos-titulo{
+    text-align: center;
+}
+
+.dispositivos-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos-titulo{
+    font-size: 3rem;
+    color: var(--branco-principal);
+}
+
+.lista-item{
+    font-size: 2rem;
+    list-style-type: none;
+    list-style: none;
+}
+
+a{
+    color: var(--branco-principal);
+}
+
+.rodape-logo{
+  display: block;
+  margin:  0 auto;
+}
+
+.rodape-lista{
+    color: var(--branco-principal);
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    list-style-type: none;
+    margin: 3em;
+    font-weight: 400;
+}
+
+.rodape-texto{
+    text-align: center;
+    color: var(--cinza-secundario);
+    font-size: 0.87rem;
+    font-weight: 400;
+}
+
+.rodape-texto-secundario{
+    text-align: center;
+    color: var(--cinza-secundario);
+    font-size: 0.87rem;
+    font-weight: 400;
+}
+
+.lista-link a:hover{
+    color: var(--botao-azul) ;
+}
+
+.container-botao:hover{
+    color: var(--cinza-secundario);
+}
+
+
+
